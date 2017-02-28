@@ -80,6 +80,16 @@ Handling of invalid parameters
    `actual_departure_date` parameter, then the server MAY respond with HTTP
    400 error response, or with HTTP 200 response.
 
+ * If the dates are provided in a wrong format, then the server MUST respond
+   with HTTP 400 error response. It is RECOMMENDED to include user-messages in
+   this response.
+
+ * If the dates provided in the request don't meet some other "sanity" checks
+   required by the server (and they cannot be saved), then the server MAY
+   respond with HTTP 400 error response. It is REQUIRED to include
+   user-messages in such a response, so that the end user gets notified about
+   the reason for this rejection.
+
 
 Response
 --------
