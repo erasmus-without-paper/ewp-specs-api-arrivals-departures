@@ -39,8 +39,10 @@
                             Optional additional information for the human who had initiated the request.
 
                             This is useful, because servers often process such requests very differently.
-                            Some servers store new values immediately, others require them to be reviewed
-                            first, etc.
+                            The user might expect that the values will be stored immediately, so that
+                            future requests for this mobility would yield updated results. If this server
+                            uses a different strategy (e.g. it requires requests to be reviewed first),
+                            then it should make it clear in this message.
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>

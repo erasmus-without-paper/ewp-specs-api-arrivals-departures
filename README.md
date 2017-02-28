@@ -18,8 +18,7 @@ immediately. This means that the results of calling this API don't have to be
 immediately reflected in mobility's `actual-arrival-date` and
 `actual-departure-date` values in the Outgoing Mobilities API response. Some
 sending HEIs MAY simply choose to notify their IRO members instead, so that the
-request gets reviewed by a human first. The chosen strategy SHOULD be described
-in the `<user-notes>` element in the manifest entry.
+request gets reviewed by a human first.
 
 
 Request method
