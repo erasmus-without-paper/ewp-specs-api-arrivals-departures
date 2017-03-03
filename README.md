@@ -1,5 +1,5 @@
-Mobility Arrival and Departure API
-==================================
+OBSOLETE - Mobility Arrival and Departure API
+=============================================
 
 * [What is the status of this document?][statuses]
 * [See the index of all other EWP Specifications][develhub]
@@ -7,6 +7,9 @@ Mobility Arrival and Departure API
 
 Summary
 -------
+
+**OBSOLETE: This proposal has been merged with [Outgoing Mobilities API]
+[mobilities-api].**
 
 This document describes the **Mobility Arrival and Departure API**. This API
 can be implemented by a sending HEI if it wants to **allow** receiving HEIs to
@@ -103,3 +106,4 @@ Servers MUST respond with a valid XML document described by the [response.xsd]
 [discovery-api]: https://github.com/erasmus-without-paper/ewp-specs-api-discovery
 [echo]: https://github.com/erasmus-without-paper/ewp-specs-api-echo
 [error-handling]: https://github.com/erasmus-without-paper/ewp-specs-architecture#error-handling
+[mobilities-api]: https://github.com/erasmus-without-paper/ewp-specs-api-mobilities
